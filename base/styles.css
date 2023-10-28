@@ -1,0 +1,100 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none; 
+    color:white; 
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+a:hover {
+    color: black;
+}
+
+
+
+p{
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    color:rgb(233, 233, 233);
+    background-color: rgb(33, 33, 33);
+}
+.perfil{
+    width: 300px;
+    
+    background-color: gray;
+    padding: 20px ;
+    border-radius: 25px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.dados{
+    width: 300px;
+    
+    background-color:gray;
+    padding: 30px ;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+.main-left, .main-right{
+    width: 50%;
+    padding:20px;
+    box-sizing: border-box
+
+}
+
+.title{
+    background-color: gray;
+    border-radius:25px;
+    text-align:left;
+    height: 90px;
+    padding: 20px;
+}
+.projects-container{
+
+    column-count: 2;
+    column-gap: 20px;
+    margin-top: 90px;
+}
+.item {
+    margin-bottom: 10px;
+    background-color: gray;
+    height: 120px;
+    border-radius: 20px;
+
+}
+.imgit{
+    width: 8%;
+    height: auto;
+    margin-right: 10px;
+    top: 10px;
+}
+svg{
+    width: 8%;
+    height: auto;
+}
+.linguagem{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    align-items: center;
+    
+
+}
+.icon{
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    margin-right: 10px;
+    border-radius: 100%;
+    border: 3px solid black;
+}
